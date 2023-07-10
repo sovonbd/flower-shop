@@ -178,33 +178,54 @@ body {
     align-items: center;
 }
 
-.banner-info{
+.banner-info {
     width: 440px;
     margin-right: 180px;
     text-align: center;
 }
 
-.red{
+.red {
     color: #E55473;
 }
 
-.banner-img{
+.banner-img {
     width: 240px;
 }
 
 /* insta container styles */
 
-.insta-container{
-    margin: 120px 200px;
+.insta-container {
+    margin: 120px 170px;
     text-align: center;
 }
 
-.insta-img{
-    width: 250px;
+.insta-img {
+    width: 270px;
     padding-right: 10px;
 }
 
-.insta-desc{
+.insta-desc {
     width: 440px;
     margin: 20px auto;
+}
+
+/* subscribe container styles */
+.subscribe-container {
+    margin: 0px 200px 120px 200px;
+    background: url('./asset/Rectangle\ 9.png');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.subscribe-info {
+    padding: 100px;
+}
+
+.email {
+    padding: 18px 370px 18px 18px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
 }
