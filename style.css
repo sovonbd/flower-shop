@@ -126,7 +126,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 20px;
+
     border-radius: 5px;
     padding: 20px 30px;
     width: 50%;
@@ -134,6 +134,7 @@ body {
 
 .sepecial-feature-left {
     background-color: rgba(71, 125, 17, 0.15);
+    margin-right: 20px;
 }
 
 .special-feature-info {
@@ -163,6 +164,30 @@ body {
     text-align: center;
 }
 
-.support-desc{
+.support-desc {
     margin-bottom: 0px;
+}
+
+/* banner container styles */
+
+.banner-container {
+    background: rgba(229, 84, 115, 0.05);
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info{
+    width: 440px;
+    margin-right: 180px;
+    text-align: center;
+}
+
+.red{
+    color: #E55473;
+}
+
+.banner-img{
+    width: 240px;
 }
