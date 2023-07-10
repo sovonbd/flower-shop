@@ -1,4 +1,5 @@
 /* shared styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -32,14 +33,17 @@ body {
     cursor: pointer;
 }
 
+/* header section styles */
+
 /* header container styles */
+
 .header-container {
     background: rgba(229, 84, 115, 0.10);
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0px 200px;
+    padding: 20px 150px 0px 180px;
 }
 
 .header-info {
@@ -62,6 +66,7 @@ body {
 /* main section styles */
 
 /* feature container styles */
+
 .feature-container {
     text-align: center;
     margin: 120px 200px;
@@ -73,7 +78,7 @@ body {
 }
 
 .feature-flower {
-    width: 140px;
+    width: 180px;
     height: 250px;
     padding: 50px 45px 0px 45px;
     border-radius: 300px 300px 0px 0px;
@@ -88,7 +93,7 @@ body {
 .flower-2 {
     background: rgba(5, 151, 160, 0.15);
     margin-right: 20px;
-    height: 225px;
+    height: 230px;
     padding-bottom: 25px;
 }
 
@@ -97,7 +102,7 @@ body {
 }
 
 .feature-img-title {
-    width: 600px;
+    width: 690px;
     margin: 10px auto;
     font-size: 16px;
     font-weight: 700;
@@ -228,4 +233,27 @@ body {
     border: none;
     border-radius: 5px;
     margin-right: 5px;
+}
+
+/* footer section styles */
+
+/* footer container styles */
+.footer-container{
+    text-align: center;
+    background-color: #111010;
+    padding: 110px 500px;
+}
+
+.footer-title{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.footer-desc{
+    color:rgba(255, 255, 255, 0.90);
+}
+
+footer small{
+    color: rgba(255, 255, 255, 0.4);
 }
