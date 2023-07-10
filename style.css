@@ -12,14 +12,14 @@ body {
 .desc {
     color: rgba(39, 39, 39, 0.60);
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400px;
     margin: 20px 0px;
 }
 
 .main-title {
     color: #272727;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 800px;
 }
 
 .btn {
@@ -29,7 +29,7 @@ body {
     border: none;
     color: white;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 700px;
     cursor: pointer;
 }
 
@@ -47,15 +47,15 @@ body {
 }
 
 .header-info {
-    width: 708px;
-    margin-right: 90px;
+    width: 450px;
+    margin-right: 120px;
 }
 
 .header-title {
     color: #272727;
     font-family: Lato;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 800px;
 }
 
 .header-img {
