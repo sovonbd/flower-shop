@@ -15,6 +15,12 @@ body {
     margin: 20px 0px;
 }
 
+.main-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
 /* header container styles */
 .header-container {
     background: rgba(229, 84, 115, 0.10);
@@ -60,8 +66,46 @@ body {
     margin: 120px 200px;
 }
 
-.feature-title {
+.desc-width {
+    width: 590px;
+    margin: 20px auto 40px auto;
+}
+
+.feature-flower {
+    width: 140px;
+    height: 250px;
+    padding: 50px 45px 0px 45px;
+    border-radius: 300px 300px 0px 0px;
+    cursor: pointer;
+}
+
+.flower-1 {
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 20px;
+}
+
+.flower-2 {
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 20px;
+    height: 225px;
+    padding-bottom: 25px;
+}
+
+.flower-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.feature-img-title {
+    width: 600px;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.img-name{
     color: #272727;
-    font-size: 30px;
-    font-weight: 800;
 }
