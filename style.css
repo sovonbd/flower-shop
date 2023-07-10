@@ -191,3 +191,20 @@ body {
 .banner-img{
     width: 240px;
 }
+
+/* insta container styles */
+
+.insta-container{
+    margin: 120px 200px;
+    text-align: center;
+}
+
+.insta-img{
+    width: 250px;
+    padding-right: 10px;
+}
+
+.insta-desc{
+    width: 440px;
+    margin: 20px auto;
+}
