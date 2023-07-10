@@ -21,6 +21,17 @@ body {
     font-weight: 800;
 }
 
+.btn {
+    padding: 18px 35px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 /* header container styles */
 .header-container {
     background: rgba(229, 84, 115, 0.10);
@@ -41,16 +52,6 @@ body {
     font-family: Lato;
     font-size: 50px;
     font-weight: 800;
-}
-
-.header-btn {
-    padding: 18px 35px;
-    border-radius: 8px;
-    background: #E55473;
-    border: none;
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
 }
 
 .header-img {
@@ -108,4 +109,41 @@ body {
 
 .img-name{
     color: #272727;
+}
+
+/* special feature styles */
+
+.special-feature-container{
+    text-align: center;
+    margin: 0px 200px 120px 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sepecial-feature-left, .sepecial-feature-right{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 20px 30px;
+    width: 50%;
+}
+.sepecial-feature-left{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.special-feature-info{
+    text-align: left;
+}
+
+.top-stuff{
+    color: #7FB036;
+    margin-bottom: 5px;
+}
+
+.special-feature-img{
+    width: 120ox;
+    height: 180px;
 }
