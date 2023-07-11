@@ -1,8 +1,8 @@
 /* shared styles */
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -77,9 +77,14 @@ body {
     margin: 20px auto 40px auto;
 }
 
+.feature-flower-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .feature-flower {
     width: 260px;
-    height: 340px;
+    height: 350px;
     padding: 50px 45px 0px 45px;
     border-radius: 300px 300px 0px 0px;
     cursor: pointer;
@@ -87,13 +92,11 @@ body {
 
 .flower-1 {
     background: rgba(167, 33, 98, 0.15);
-    margin-right: 20px;
 }
 
 .flower-2 {
     background: rgba(5, 151, 160, 0.15);
-    margin-right: 20px;
-    height: 315px;
+    height: 326px;
     padding-bottom: 25px;
 }
 
@@ -101,15 +104,14 @@ body {
     background: rgba(71, 125, 17, 0.15);
 }
 
-.feature-img-title {
-    width: 860px;
-    margin: 10px auto;
+.feature-cap {
+    margin-top: 10px;
+    text-decoration: underline;
     font-size: 16px;
-    font-weight: 700;
-    text-decoration-line: underline;
-    display: flex;
-    justify-content: space-between;
+    font-weight: 700px;
     cursor: pointer;
+    color: rgba(39, 39, 39, 1);
+    text-align: center;
 }
 
 .img-name {
@@ -238,22 +240,22 @@ body {
 /* footer section styles */
 
 /* footer container styles */
-.footer-container{
+.footer-container {
     text-align: center;
     background-color: #111010;
     padding: 110px 500px;
 }
 
-.footer-title{
+.footer-title {
     color: #FFFFFF;
     font-size: 30px;
     font-weight: 800;
 }
 
-.footer-desc{
-    color:rgba(255, 255, 255, 0.90);
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
 }
 
-footer small{
+footer small {
     color: rgba(255, 255, 255, 0.4);
 }
